@@ -1,0 +1,14 @@
+{
+  "name": "campus-checklist-ai",
+  "version": "1.0.0",
+  "description": "校园清单 · AI 截图提取（Node.js 后端中转，保护 API Key）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
